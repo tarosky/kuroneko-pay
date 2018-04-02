@@ -13,6 +13,7 @@ curl -L https://raw.githubusercontent.com/fumikito/wp-readme/master/wp-readme.ph
 rm -rf node_modules
 rm -rf tests
 rm -rf bin
+rm -rf .git
 
 if [ $TRAVIS_TAG ]; then
     echo $TRAVIS_TAG
