@@ -18,7 +18,7 @@ env:
   - WP_VERSION=4.7 WP_MULTISITE=0
   global:
   - SVN_REPO: https://plugins.svn.wordpress.org/kuroneko-pay/
-  - secure: "ow/7zbHLorjUZZh6hZbo61UCqk8Q49JZ5eWu+GMlHSa7qS1ECvhXKjqe9iw1t42W6g6p/JEMJhdPLbzxK1cGk7hUgQjFXaofY1ZRuxkFtRmF3dTYehqdhTIdUmkV/UDnL5dwAt6r4rSd/PrqcmArSn1CdY2D1znIwvMN5QGg9TI="
+  - secure: "pUk2PAcIwCZovOTaiI2kC1/yoBbkZsneoN2FCgMqgnH7wAW53sqklYOaxb4r7WVZD1EHEWnTBpmerJkj2FhpKuNeD3eZ6qoHtDzvEdRmYvUYGZydBlmR7GEIxfpII69kmdy/KZJnLHGw27pZ7TwbLE0RSJws4BoUEkyjrJ63AxKAYIn/CDww6liDKayW79PV+qTXbUJ7gT19FnoTUnJktdH6ybyF/FO2RUwXRDiXat330WvRoO43sZSKmNjCwJocgklALu0E5YU1sUbFl4EOOgbGg7LB1nUMLmRzKdjMaPbm3dRDZbyQgCiy7Vi4PreeP7EE3RlA2DeA1jg36bJr+aPRfvSRPSU6WsKVL74XqsxW7EeAykogvJGhYi08X7O6+VLWVvdzb8Tyi8Ai0tImJBkHtc/aueCgtPVESWuc6RbBpZ5yhINZPn8WLEuvPItao2f34RtwwdbEC+MPRgHggyaon+TYtLhwW4217v07zEgsqV2y18Q0PP+vnXgYh1QLmXM+P5aWACkY1yh3WH/UjGTXYeCzjAPEQWZUOIS2qCavSRxImw/cYoCx2nhfrOVgzZNyoxxB7CJ810+q73KyNbkgXlkH1pHB3zbIcNi/6naruaxCvQdMPcU0/W63eSebhkPEqClUvvPaRQdT/CBGEWEIUDN8RW1NvTV1YiKMenc="
 matrix:
   include:
   - php: 7.2

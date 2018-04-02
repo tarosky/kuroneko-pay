@@ -4,11 +4,11 @@
  * Plugin URI: https://wordpress.org/kuroneko-pay/
  * Description: Add Kuroneko Web Collect's Payment Gateway to WooCommerce.
  * Version: 1.2.1
- * Author: Tarsoky INC.
+ * Author: TAROSKY INC.
  * Author URI: https://tarosky.co.jp
  * PHP Version: 5.4.0
  * Tested up to: 4.9.4
- * Requires at least: 4.6
+ * Requires at least: 4.7
  * License: GPL3 or later
  * Text Domain: kuroneko
  *
