@@ -1,6 +1,6 @@
 # Kuroneko Web Collect
 
-Contributors: tarosky  
+Contributors: yamatofinancial  
 Tags: woocommerce, payment, japan, yamato  
 Requires at least: 4.7  
 Requires PHP: 5.4  
@@ -70,7 +70,7 @@ After setup, customers will see the payment gateway on checkout page.
 
 ## Frequently Asked Questions
 
-Feel free to contact us as [our support page](https://tarosky.co.jp).
+Feel free to contact us at support forum.
 
 ## Changelog
 
