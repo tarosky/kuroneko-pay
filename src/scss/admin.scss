@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.wc-yamato{
+  &-payment-status{
+
+  }
+  &-shipping-status{
+    .dashicons{
+      color: #888;
+    }
+    img.kuroneko{
+      vertical-align: middle;
+    }
+  }
+}
+
+.kuroneko-message{
+  position: relative;
+  border-left-color: #FDD100 !important;
+  color: #231816;
+}

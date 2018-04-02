@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.my_kuroneko_cc{
+  position: relative;
+  .my_kuroneko_cc_add__title,
+  #kuroneko-add-card-form{
+    display: none;
+  }
+  &--empty{
+    tbody{
+      display: none;
+    }
+    .my_kuroneko_cc__alert{
+      display: block;
+    }
+    .my_kuroneko_cc__warning{
+      display: none;
+    }
+    .my_kuroneko_cc_add__title,
+    #kuroneko-add-card-form{
+      display: block;
+    }
+  }
+  &__alert{
+    display: none;
+    color: #9b9b9b;
+    font-weight: bold;
+  }
+  &__warning{
+    display: block;
+    color: #9b9b9b;
+    font-weight: bold;
+  }
+  &__table{
+    .number{
+      padding-right: 0;
+      padding-left: 0;
+      width: 3em;
+      text-align: center;
+    }
+  }
+  &__japan{
+    padding: 0.1em 0.5em;
+    background: #fff;
+    margin-right: 0.25em;
+    color: #ff4634;
+    border: 1px solid #eee;
+  }
+  &__globe{
+    padding: 0.1em 0.5em;
+    margin-right: 0.25em;
+    color: #254891;
+  }
+
+}
+
+.kuroneko-msg{
+  padding: 1em;
+  border: 1px solid #00a000;
+  color: #00a000;
+  background: #e0f5e2;
+  margin: 2em 0;
+  position: relative;
+  p{
+    margin: 0 2em 0 0;
+  }
+  a{
+    position: absolute;
+    top: 50%;
+    right: 2em;
+    margin-top: -0.5em;
+    &:link, &:visited{
+      color: #aaa;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    &:hover, &:active{
+      color: #444;
+      font-weight:bold;
+      text-decoration: none;
+    }
+
+  }
+  &--error{
+    border-color: #c90f01;
+    color: #c90f01;
+    background: #ffe6e7;
+  }
+}
+
+// For storefront menu icon
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--kuroneko-cards a:before{
+  content: "\f09d";
+}

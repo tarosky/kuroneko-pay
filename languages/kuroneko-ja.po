@@ -1,0 +1,1152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kuroneko Pay\n"
+"POT-Creation-Date: 2018-03-09 17:53+0900\n"
+"PO-Revision-Date: 2018-03-09 18:01+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+"X-Poedit-SearchPathExcluded-3: yamato-b2-exporter\n"
+
+#: app/KuronekoYamato/KuronekoPay/BootStrap.php:66
+msgid "Requesting..."
+msgstr "リクエスト中……"
+
+#: app/KuronekoYamato/KuronekoPay/BootStrap.php:67
+msgid ""
+"Refresh this page to see latest information? Unsaved information will be "
+"lost."
+msgstr ""
+"最新の情報を反映するためにページを更新しますか？　保存されていない情報は失わ"
+"れます。"
+
+#: app/KuronekoYamato/KuronekoPay/BootStrap.php:68
+msgid ""
+"Are you sure to change tracking no? You might notify this change to customer."
+msgstr ""
+"追跡番号を変更しますか？　この変更を顧客に伝える必要があるかもしれません。"
+
+#: app/KuronekoYamato/KuronekoPay/BootStrap.php:69
+msgctxt "rest_request"
+msgid "Server doesn't respond. Please contact to server admin."
+msgstr "サーバーから応答がありません。サーバー管理者に問い合わせてください。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:38
+msgid "Are you sure to delete this card?"
+msgstr "このカードを削除してよろしいですか？"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:39
+msgid "Failed to delete Credit card."
+msgstr "クレジットカードの削除に失敗しました。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:40
+msgid "Failed to add Credit card."
+msgstr "クレジットカードの登録に失敗しました。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:64
+msgid "Card Number"
+msgstr "﻿カード番号"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:67
+msgid "Brand"
+msgstr "ブランド"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:70
+msgid "Expiry (MM/YY)"
+msgstr "﻿有効期限（月/年）"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:73
+msgid "Available Area"
+msgstr "利用可能な地域"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:76
+msgid "Action"
+msgstr "アクション"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:88
+msgid ""
+"No registered card. You can add 1 credit card for each area on check out "
+"page."
+msgstr ""
+"登録されたカードはありません。それぞれの地域に対して1枚のカードをチェックアウ"
+"トページで追加できます。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:93
+msgid ""
+"You can save only 1 card for each area. To register new, please remove "
+"existing before."
+msgstr ""
+"カードはそれぞれの地域に一つだけ保存できます。新しいものを登録するには、その"
+"前に既存のものを削除してください。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:95
+msgid ""
+"If your card is used for subscription, you can't delete it as long as you "
+"stop subscription."
+msgstr ""
+"カードが定期購入に使用されている場合、定期購入を解除しない限りカードを削除で"
+"きません。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:128
+msgid "International"
+msgstr "全世界"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:130
+msgid "Japan"
+msgstr "日本"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:137
+msgid "Remove"
+msgstr "﻿削除"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:140
+msgid "Undeletable"
+msgstr "削除不可"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:141
+msgid "Using"
+msgstr "使用中"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:191
+msgid "This card is not deletable."
+msgstr "このカードは削除できません。"
+
+#: app/KuronekoYamato/KuronekoPay/CardManager.php:221
+msgid "Invalid access."
+msgstr "不正なアクセスです。"
+
+#: app/KuronekoYamato/KuronekoPay/Commands/KuronekoCli.php:68
+#, php-format
+msgid "%d order"
+msgid_plural "%d orders"
+msgstr[0] "%d 件の注文"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:49
+msgid "Credit card"
+msgstr "クレジットカード"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:50
+msgid "Pay with your credit card via Kuroneko Web Collect."
+msgstr "クロネコ web コレクトを利用してクレジットカード支払いをします。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:118
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:79
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:69
+msgid "Trader code is required."
+msgstr "加盟店コードが必須です。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:130
+msgid "Access Key"
+msgstr "アクセスキー"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:132
+msgid ""
+"6-7 digits on contract sheet or last numerics of access URL. To use "
+"subscription, Access key is required."
+msgstr ""
+"登録完了書に記載されている数字6-7桁の「アクセスキー」もしくは、アクセスURL末"
+"尾の数字を設定してください。定期購入を利用するにはアクセスキーが必須です。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:137
+msgid "Auth Div"
+msgstr "承認区分"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:139
+msgid "3D secure is under development."
+msgstr "3Dセキュア決済には対応しておりません。ご了承ください。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:143
+msgid "Security Code"
+msgstr "セキュリティコード"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:160
+msgid "This is sandbox environment."
+msgstr "これはサンドボックス環境です。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:174
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:135
+msgid "This payment method is only visible for site admins."
+msgstr "この支払い方法はサイト管理者にだけ見えています。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:198
+msgid "Card Brand"
+msgstr "カードブランド"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:202
+msgid "Select Card Brand"
+msgstr "カードブランドを選択……"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:216
+msgid "Enter Card Number"
+msgstr "カード番号入力"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:217
+msgid "Card O.K."
+msgstr "カードOK"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:240
+msgid "Register Card"
+msgstr "カードを登録"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:243
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:267
+msgid "* for Subscription"
+msgstr "* 定期購入では必須"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:250
+msgid "Save this card for next checkout."
+msgstr "次の支払いのためにカードを保存する。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:251
+msgid "NOTICE: Card number will never be saved."
+msgstr "※ カード番号は保存されません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:264
+msgid "Or Pay With Registered Card"
+msgstr "登録されたカードで支払う"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:337
+msgid "Specified card is not available."
+msgstr "指定されたカードは利用できません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:341
+msgid "Specified card not found."
+msgstr "指定されたカードが見つかりません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:354
+msgid "Card token is empty. Please enter by clicking button."
+msgstr "カードトークンが無効です。ボタンをクリックして入力してください。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:358
+msgid "Card brand is not set."
+msgstr "カードブランドがセットされていません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:369
+#, php-format
+msgid "To save credit card, you have to <a href=\"%s\">log in</a>."
+msgstr "カードを保存するには<a href=\"%s\">ログイン</a>する必要があります。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:375
+#, php-format
+msgid ""
+"You have already 1 card and no more card can be saved. To add new card, "
+"please go to your <a href=\"%s\">account page</a>."
+msgstr ""
+"すでに1つのカードを登録済みです。これ以上は登録できません。新しいカードを追加"
+"するには<a href=\"%s\">アカウントページ</a>へ行ってください。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:386
+msgid "You should register credit card for subscription."
+msgstr "定期購入ではカードを保存する必要があります。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:401
+msgid "Payment is authorized."
+msgstr "支払いが承認されました。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:410
+msgid "Failed to capture."
+msgstr "クレジットカードの売り上げ登録に失敗しました。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:440
+msgid "User of this subscription not found."
+msgstr "この定期購入に紐付いたユーザーが見つかりません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:446
+msgid "Parent subscription not found."
+msgstr "定期購入が見つかりませんでした。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:450
+#, php-format
+msgid "Subscription #%d has no credit card information."
+msgstr "定期購読 #%d にはクレジットカードが紐づけられていません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:508
+msgid "This transaction has no card information."
+msgstr "この決済にはカード情報がありません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/CreditCard.php:40
+msgid "Credit Card (Domestic)"
+msgstr "クレジットカード（国内）"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/CreditCard.php:41
+msgid ""
+"Credit card gateway of Kuroneko Web Collect. Only available for billing to "
+"Japan."
+msgstr ""
+"クロネコ web コレクトのクレジットカード決済。日本国内の請求にのみ利用できま"
+"す。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/CreditCardIntl.php:40
+msgid "Credit Card (International)"
+msgstr "クレジットカード（国際）"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/CreditCardIntl.php:41
+msgid ""
+"Credit card gateway of Kuroneko Web Collect. Only available for "
+"international billing."
+msgstr ""
+"クロネコ web コレクトのクレジットカードゲートウェイ。海外への請求でのみご利用"
+"いただけます。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:39
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:41
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:49
+msgid "Convenience Store"
+msgstr "コンビニ支払い"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:40
+msgid ""
+"Convenience Store's GateWay via Kuroneko Web Collect. You have to create "
+"account."
+msgstr ""
+"クロネコ web コレクトのコンビニ支払いゲートウェイ。アカウントを作成する必要が"
+"あります。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:42
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:50
+msgid "Pay at Convenience Store."
+msgstr "コンビニエンスストアで支払います。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:98
+msgid "Available Stores"
+msgstr "利用できるチェーン"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:100
+msgid ""
+"Please choose available store brands. You can select multiple with Shift + "
+"Click."
+msgstr ""
+"利用できるチェーンを選んでください。Shift + クリックで複数選択できます。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:105
+msgid "Payment Fee Charge"
+msgstr "支払い手数料"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:107
+msgid ""
+"CVS payment will requires fee. If you want charge it to your customer, enter "
+"price and it will be appended to cart amount."
+msgstr ""
+"コンビニ支払いは手数料がかかります。お客様に請求する場合は入力してください。"
+"カートで総額が表示されます。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:111
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:81
+msgid "Limit Days"
+msgstr "支払い期限"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:113
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:83
+msgid ""
+"Transaction will be canceled after the specified days. Must be more than 0."
+msgstr "決済は指定の日が過ぎるとキャンセルされます。0以上必須。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:148
+#, php-format
+msgid "You will be charged &yen;%s for payment fee."
+msgstr "支払い手数料として &yen;%s がかかります。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:152
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:98
+#, php-format
+msgid "You have to finish payment until %s."
+msgstr "%s までに支払いを終えてください。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:166
+msgid "CVS is not selected."
+msgstr "コンビニが選択されていません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:170
+msgid "Sorry, but specified CVS is not available."
+msgstr "指定されたコンビニは利用できません。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:181
+msgid "Family Mart requires yomigana of your name. They should be katakana."
+msgstr "Family Martは名前によみがなを必要とします。カタカナ必須です。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:222
+#, php-format
+msgid "%s and etc"
+msgstr "%s その他"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:264
+msgid "CVS Payment is registered."
+msgstr "コンビニ支払いが登録されました。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:266
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:135
+msgid "Awaiting CVS payment complete."
+msgstr "コンビニ支払いが完了するのを待っています。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:304
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:156
+#, php-format
+msgid "<p>Payment Notification URL: <code>%s</code></p>"
+msgstr "<p>支払い通知 URL: <code>%s</code></p>"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:34
+msgid "Rakuten Bank GateWay. Kuroneko Web Payment account is required."
+msgstr ""
+"楽天銀行ゲートウェイです。クロネコWebペイメントのアカウントが必須です。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:35
+msgid "Rakuten Bank"
+msgstr "楽天銀行"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:36
+msgid "Pay at Rakuten Bank"
+msgstr "楽天銀行で支払う"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:97
+msgid ""
+"After check out, you will find a link to Rankuten Bank on order detail page. "
+"Please transfer order amount there."
+msgstr ""
+"注文が終わると、注文詳細ページに楽天銀行へのリンクが表示されます。そちらから"
+"注文総額をご入金ください。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:55
+msgid "Kuroneko Web Collect"
+msgstr "クロネコ web コレクト"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:163
+#, php-format
+msgid "Failed to capture transaction: %s"
+msgstr "決済を確定できませんでした: %s"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:202
+msgid "Complete"
+msgstr "完了"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:206
+msgid "Failed Payment"
+msgstr "支払いの失敗"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:213
+msgid "Tracking Ready"
+msgstr "追跡可能"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:217
+msgid "Need Tracking No."
+msgstr "追跡番号が必要"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:223
+msgid "No Payment"
+msgstr "支払いなし"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:280
+msgid "Tracking No is not specified."
+msgstr "追跡番号が指定されていません。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:287
+msgid "Tracking number is mal-formatted."
+msgstr "追跡番号が不正な形式です。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:307
+#, php-format
+msgid "Transaction %1$s successfully captured at %2$s."
+msgstr "決済 %1$s は %2$s に確定されました。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:356
+msgid "No shipping"
+msgstr "配送はありません。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:362
+msgid "Shipped via Yamato"
+msgstr "ヤマトで配送"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:367
+msgid "Has shipping"
+msgstr "配送あり"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:477
+msgid "Invalid Payment Method."
+msgstr "無効な支払い方法です。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:482
+msgid "Invalid trader code."
+msgstr "不正な店舗コードです。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:487
+msgid "Order not found."
+msgstr "指定された注文が見つかりません。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:493
+msgid "Order is not paid with specified method."
+msgstr "ご注文は指定された方法で支払われていません。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:497
+#, php-format
+msgid "Error on %1$s transaction: %2$s"
+msgstr "%1$s での決済エラー: %2$s"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:528
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:638
+msgid "Payment limit is outdated."
+msgstr "支払い期限が過ぎました。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:530
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:640
+#, php-format
+msgctxt "Error"
+msgid "Failed to pay: %s"
+msgstr "支払い失敗: %s"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:536
+msgid "Failed to update order."
+msgstr "注文の更新に失敗しました。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:539
+msgid "Order updated"
+msgstr "注文が更新されました。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:563
+msgid ""
+"You can check order payment status at Store admin of Kuroneko Web Collect."
+msgstr ""
+"クロネコ web コレクトの加盟店管理画面から注文の詳細を見ることができます。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:567
+#, php-format
+msgid ""
+"Payment is captured at <code>%s</code>. If you want to change tracking no, "
+"please click button below after saving new one."
+msgstr ""
+"支払いは <code>%s</code> に確定しました。追跡番号を変更したい場合は、新しいも"
+"のを保存した上で、下のボタンを押してください。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:571
+msgid "Change Tracking No."
+msgstr "追跡番号を変更する"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:574
+#, php-format
+msgid ""
+"Payment is <strong style=\"color: red;\">NOT captured</strong>. To confirm "
+"payment, Please click button below after saving %s."
+msgstr ""
+"支払いは <strong style=\"color: red;\">未確定</strong> です。支払いを確定する"
+"には、新しい %s を保存したうえで下のボタンをクリックしてください。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:574
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:584
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:588
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:589
+msgid "Tracking No."
+msgstr "追跡番号"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:578
+msgid "Capture Payment"
+msgstr "支払いの確定"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:584
+#, php-format
+msgid ""
+"<strong style=\"color: darkgreen\">%s is set</strong>. Payment will be "
+"captured when order is \"completed\"."
+msgstr ""
+"<strong style=\"color: darkgreen\">%s が設定されています</strong>。支払いは注"
+"文が「完了」になったときに確定となります。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:588
+#, php-format
+msgid ""
+"<strong style=\"color: red\">%1$s is required</strong>. Enter %1$s in %2$s."
+msgstr ""
+"<strong style=\"color: red\">%1$s が必要です</strong>。 %1$s を %2$s に入力し"
+"てください。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:588
+msgid "Shipping Information"
+msgstr "配送情報"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:589
+#, php-format
+msgid ""
+"In case of downloadable products or other shipping method as Yamato "
+"Transport, enter <code>000000000000</code> as dummy %s."
+msgstr ""
+"ダウンロード商品やヤマト運輸以外の配送方法を使う場合は、ダミー%sとして"
+"<code>000000000000</code>を入力してください。"
+
+#: app/KuronekoYamato/KuronekoPay/Helper/OrderHelper.php:594
+msgid "No additional information for this order."
+msgstr "この注文に追加の情報はありません。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/Brands.php:20
+msgctxt "brand"
+msgid "Diners"
+msgstr "Diners"
+
+#: app/KuronekoYamato/KuronekoPay/Master/Brands.php:21
+msgctxt "brand"
+msgid "JCB"
+msgstr "JCB"
+
+#: app/KuronekoYamato/KuronekoPay/Master/Brands.php:27
+msgctxt "brand"
+msgid "VISA"
+msgstr "VISA"
+
+#: app/KuronekoYamato/KuronekoPay/Master/Brands.php:28
+msgctxt "brand"
+msgid "MASTER"
+msgstr "MASTER"
+
+#: app/KuronekoYamato/KuronekoPay/Master/Brands.php:30
+msgctxt "brand"
+msgid "Amex"
+msgstr "アメックス"
+
+#: app/KuronekoYamato/KuronekoPay/Master/Brands.php:89
+msgid "Unknown Brand"
+msgstr "不明なブランド"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:27
+msgid "Seven Eleven"
+msgstr "セブン・イレブン"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:31
+msgid "Lawson"
+msgstr "ローソン"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:35
+msgid "Family Mart"
+msgstr "ファミリーマート"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:39
+msgid "SeikoMart"
+msgstr "セイコーマート"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:43
+msgid "Mini Stop"
+msgstr "ミニストップ"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:47
+msgid "Circle K Sunks"
+msgstr "サークルKサンクス"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:113
+msgid "Available Store"
+msgstr "利用できるストア"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:121
+msgid "Payment No."
+msgstr "支払い番号"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:126
+msgid "Payment Coupon URL"
+msgstr "注文伝票URL"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:132
+msgid "Company Code"
+msgstr "企業コード"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:136
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:143
+msgid "Order No."
+msgstr "注文番号"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:147
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:154
+msgid "Payment Limit"
+msgstr "支払い期限"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:171
+msgctxt "Instruction"
+msgid "1. Print the payment coupon and pay with it at register."
+msgstr "1. 注文伝票を印刷し、レジでお支払いください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:172
+msgctxt "Instruction"
+msgid ""
+"2. Or, remember your payment number(13 digits) and tell it to a shop "
+"assistant."
+msgstr "2. 支払い番号（13桁）を控え、店員にお伝え下さい。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:177
+msgctxt "Instruction"
+msgid "1. Remember company code and order NO on your payment coupon."
+msgstr "1. 注文メールに記載された企業コードと注文番号を控えてください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:178
+msgctxt "Instruction"
+msgid ""
+"2. At a shop, enter these 2 numbers to Famiport and you will get a ticket."
+msgstr ""
+"2. 店舗でこれら2つの番号をファミポートに入力すると、チケットが手に入ります。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:179
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:186
+msgctxt "Instruction"
+msgid "3. Pay with the ticket."
+msgstr "3. このチケットで支払いをします。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:184
+msgctxt "Instruction"
+msgid "1. Remember order No and your billing phone number."
+msgstr "1. 注文番号と支払い電話番号を控えてください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:185
+msgctxt "Instruction"
+msgid ""
+"2. At a shop, enter these 2 number to Loppi terminal and you will get a "
+"ticket."
+msgstr ""
+"2. 店舗でこれら2つの番号を Loppi 端末に入力すると、チケットが手に入ります。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/CvsInfo.php:187
+msgctxt "Instruction"
+msgid ""
+"4. If you have trouble, please ask shop assistant about your online payment."
+msgstr "4. オンライン支払いで問題が発生した場合は、店員にご相談ください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:40
+msgctxt "error"
+msgid "Request time out."
+msgstr "リクエストが時間切れになりました。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:43
+msgctxt "error"
+msgid "Too many transaction."
+msgstr "トランザクションの回数が多すぎます。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:55
+msgctxt "error"
+msgid "Available amount exceeded."
+msgstr "利用可能が額を超えています。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:70
+msgctxt "error"
+msgid "This credit card is not available. Please try another card."
+msgstr "このクレジットカードは利用できません。別のカードをお試しください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:73
+msgctxt "error"
+msgid "Failed to save credit card."
+msgstr "クレジットカードの登録に失敗しました。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:86
+msgctxt "error"
+msgid ""
+"Failed to cancel transaction. Order number doesn't exist or not cancelable."
+msgstr ""
+"決済の取り消しに失敗しました。注文番号が存在しないか、キャンセルできない注文"
+"です。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:98
+msgctxt "error"
+msgid "Transaction not found"
+msgstr "決済が見つかりませんでした。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:111
+msgctxt "error"
+msgid "Sorry, but this transaction cannot be canceled."
+msgstr "もうわけございませんが、この決済はキャンセルできません。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:155
+msgctxt "error"
+msgid "System reject request because of duplicate process."
+msgstr ""
+"重複して処理されるのを防ぐため、システムによってリクエストが拒絶されました。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:158
+msgctxt "error"
+msgid "Something is wrong. Please check order No, tracking No and so on."
+msgstr "何かが間違っています。注文番号、追跡番号などを確認してください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:169
+msgctxt "error"
+msgid "Specified data is wrong. Please check your name, tel and so on."
+msgstr ""
+"指定されたデータが間違っています。名前、電話番号などを確認してください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:172
+msgctxt "error"
+msgid "Store setting error. Please try again later or contact to store owner."
+msgstr ""
+"ストアの設定が間違えています。後ほどお試しいただくか、ストアの管理者にお問い"
+"合わせください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:175
+msgctxt "error"
+msgid "Something wrong with external gateway."
+msgstr "外部のゲートウェイでエラーが起きています。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:178
+msgctxt "error"
+msgid "Something is wrong. Please try again later."
+msgstr "不具合が起きました。のちほどお試しください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:196
+msgctxt "error"
+msgid "Undefined error occurs."
+msgstr "不明なエラーが発生しました。"
+
+#: app/KuronekoYamato/KuronekoPay/Member.php:172
+msgid "User doesn't exist."
+msgstr "ユーザーは存在しません。"
+
+#: app/KuronekoYamato/KuronekoPay/Member.php:177
+msgid "You have already 1 card saved."
+msgstr "すでに1枚のカードが保存されています。"
+
+#: app/KuronekoYamato/KuronekoPay/Member.php:239
+msgid "No card found."
+msgstr "カードが見つかりません。"
+
+#: app/KuronekoYamato/KuronekoPay/Pattern/AbstractApi.php:60
+msgid "Failed to parse response. Please try again later."
+msgstr "レスポンスの解析に失敗しました。後でもう一度試してください。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:31
+msgid "Order ID."
+msgstr "注文番号"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:58
+msgid "You have no permission to manage order."
+msgstr "注文を管理する権限がありません。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:72
+msgid "Order ID should be numeric."
+msgstr "注文IDは数字でなければなりません。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:78
+msgid "Order doens'n exist."
+msgstr "注文が存在しません。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:96
+msgid "This order is already captured."
+msgstr "この注文はすでに確定済みです。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:107
+msgid "Order is successfully captured."
+msgstr "注文は無事確定しました。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:126
+msgid "This order is not captured yet."
+msgstr "このカードはまだ支払いが確定していません。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:131
+msgid "Tracking no seemed to be same."
+msgstr "追跡番号が同じです。"
+
+#: app/KuronekoYamato/KuronekoPay/Rest/Payment.php:153
+msgid "Shipping information is changed."
+msgstr "配送情報が変更されました。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:31
+#, php-format
+msgid ""
+"To activate Kuroneko Web Collect, please register account <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"クロネコ web コレクトを有効化するには、<a href=\"%s\" target=\"_blank\">こち"
+"ら</a>でアカウントを有効にする必要があります。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:52
+msgid "Connection to Kuroneko Web Collect API is never checked."
+msgstr "クロネコ web コレクトのAPI接続はまだ確認されていません。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:61
+#, php-format
+msgid "Last Checked: %s"
+msgstr "最終確認日: %s"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:69
+msgid "Check"
+msgstr "チェック"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:72
+msgid "<strong>NOTICE: </strong>Connection check works only on Sandbox mode."
+msgstr ""
+"<strong>注意: </strong>接続チェックはサンドボックスモードでしか動きません。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:96
+msgid "Permission Error"
+msgstr "権限エラー"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:100
+msgid "No message exists."
+msgstr "メッセージは存在しません。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:157
+msgid "Payment Gateway ID is not set."
+msgstr "ペイメントゲートウェイIDが設定されていません。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/Admin.php:171
+#, php-format
+msgid "Connection from <code>%s</code> is valid."
+msgstr "<code>%s</code>からの接続は有効です。"
+
+#: app/KuronekoYamato/KuronekoPay/UI/CardList.php:27
+msgid "Registered Cards"
+msgstr "登録されたカード"
+
+#: app/KuronekoYamato/KuronekoPay/UI/OrderReview.php:42
+msgid "Payment Fee"
+msgstr "支払い手数料"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:33
+msgid "Enable/Disable"
+msgstr "﻿有効化/無効化"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:35
+#, php-format
+msgid "Enable \"%s\"."
+msgstr "\"%s\" を有効にする"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:37
+msgid "Enable or disable credit card payment gateway."
+msgstr "クレジットカード決済の機能全般を（有効・無効）に設定します。"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:42
+msgid "Title"
+msgstr "タイトル"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:44
+msgid "This controls the title which the user sees during checkout."
+msgstr "決済時にユーザーに表示される決済名を設定します。"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:49
+msgid "Description"
+msgstr "﻿説明"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:51
+msgid "This controls the description which the user sees during checkout."
+msgstr "決済時にユーザーに表示される説明を設定します。"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:56
+msgid "Sandbox"
+msgstr "﻿サンドボックス"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:57
+msgid "Enable Sandbox Mode"
+msgstr "﻿サンド ボックス モードを有効にします。"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:59
+msgid ""
+"On sandbox mode, real payments will not be taken. Enable this on test "
+"environment."
+msgstr ""
+"サンドボックスモードではクロネコwebコレクトのテスト環境への通信が行われます。"
+"加盟店コード、アクセスキーはテスト環境の情報を設定してください。"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:63
+msgid "Visibility"
+msgstr "表示"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:64
+msgid "Hidden on checkout form"
+msgstr "決済フォームから隠す"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:66
+msgid ""
+"If checked, your customer cannot choose this payment method. Useful on "
+"changing gateway on production environment."
+msgstr ""
+"チェックを入れると、顧客はこの支払い方法を選べなくなります。商用環境でゲート"
+"ウェイを変更するときに役立ちます。"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:70
+msgid "Trader Code"
+msgstr "加盟店コード"
+
+#: app/KuronekoYamato/KuronekoPay/Utility/GatewayFieldGroup.php:72
+msgid "9 digits on contract sheet with WEB Collect."
+msgstr ""
+"webコレクト登録完了書に記載されている数字9桁の「加盟店コード」を設定してくだ"
+"さい。"
+
+#: app/KuronekoYamato/KuronekoPay/Validator/Requirement.php:26
+#, php-format
+msgid "Kuroneko Web Collect requires WooCommerce Version %s and over!"
+msgstr "クロネコ web コレクトはWooCommerce %s 以上必須です。"
+
+#: app/KuronekoYamato/KuronekoPay/Validator/Requirement.php:40
+msgid "Kuroneko Web Collect supports only JPY."
+msgstr "クロネコ web コレクトは日本円しかサポートしていません。"
+
+#: kuroneko-pay.php:32
+#, php-format
+msgid "Plugin %1$s requires PHP %2$s and over, but your PHP is %3$s."
+msgstr "プラグイン%1$sはPHP %2$s以上を要求しますが、あなたのPHPは%3$sです。"
+
+#: kuroneko-pay.php:64
+msgid "Composer auto loader missing. Please rung \"composer install\"."
+msgstr ""
+"Composerのオートローダーが存在しません。 \"composer install\"を実行してくださ"
+"い。"
+
+#: templates/mail-cvs.php:7 templates/order-bank.php:21
+#: templates/order-cvs.php:29
+msgid "Payment Instruction"
+msgstr "支払い方法"
+
+#: templates/mail-shipping.php:7
+msgid "Tracking URL"
+msgstr "追跡URL"
+
+#: templates/mail-shipping.php:8
+msgid "You can track your items shipping from this URL."
+msgstr "このURLで商品の配送状況を追跡できます。"
+
+#: templates/order-bank.php:13 templates/order-cvs.php:14
+#, php-format
+msgid "Your payment is completed at %1$s via <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong> で %1$s に支払いが完了しました。"
+
+#: templates/order-bank.php:25
+#, php-format
+msgid ""
+"Please go to Rakuten Bank from button below and transfer order amount till "
+"<strong>%s</strong>."
+msgstr ""
+"以下のフォームから楽天バンクに移動し、 <strong>%s</strong> までに入金してくだ"
+"さい。"
+
+#: templates/order-cvs.php:23
+#, php-format
+msgid "Your order is expired at %s."
+msgstr "ご注文は %s に期限切れとなりました。"
+
+#: templates/order-cvs.php:31
+msgid "Completed"
+msgstr "完了"
+
+#~ msgid "To use subscription, Access key is required."
+#~ msgstr "定期購入を有効にするには、アクセスキーが必須です。"
+
+#~ msgid ""
+#~ "Authorization process security check. It depends on your contract with "
+#~ "Kuroneko Web Collect."
+#~ msgstr ""
+#~ "与信処理におけるセキュリティチェック。クロネコWebコレクトとの契約によりま"
+#~ "す。"
+
+#~ msgid "You can get trader code with Kuroneko Web Collect."
+#~ msgstr "クロネコ web コレクトから顧客コードを受け取ることができます。"
+
+#, fuzzy
+#~| msgid "Are you sure to delete this card?"
+#~ msgid "Are you sure to "
+#~ msgstr "このカードを削除してよろしいですか？"
+
+#, fuzzy
+#~| msgid "Company Code"
+#~ msgctxt "yb2_sender"
+#~ msgid "Customer Code"
+#~ msgstr "企業コード"
+
+#, fuzzy
+#~| msgid "No shipping"
+#~ msgctxt "yb2_sender"
+#~ msgid "Send email on shipping"
+#~ msgstr "配送はありません。"
+
+#, fuzzy
+#~| msgid "Invalid access."
+#~ msgid "Wrong access."
+#~ msgstr "不正なアクセスです。"
+
+#, fuzzy
+#~| msgid "No shipping"
+#~ msgid "Shipping at"
+#~ msgstr "配送はありません。"
+
+#, fuzzy
+#~| msgid "Specified card not found."
+#~ msgid "Specified order # %d not found."
+#~ msgstr "指定されたカードが見つかりません。"
+
+#~ msgid "Enter tracking number here."
+#~ msgstr "ここに追跡番号を入力してください。"
+
+#~ msgid "This is shipped with Kuruoneko Yamato."
+#~ msgstr "この配送はクロネコヤマトを利用します。"
+
+#~ msgid "Failed to cancel existing shipping information: %s"
+#~ msgstr "既存の発送情報をキャンセルできませんでした: %s"
+
+#~ msgid "You can track your shipping here:"
+#~ msgstr "こちらで発送状況をご確認いただけます:"
+
+#~ msgid "Add Pay.JP payment gateway to WooCommerce."
+#~ msgstr "WooCommerceにPay.JPの決済モジュールを追加します。"
+
+#~ msgid "Pay at Convenience Store"
+#~ msgstr "コンビニエンスストアで支払います。"
+
+#~ msgid "Pay at Convenience Store with ."
+#~ msgstr "コンビニで支払う。"
+
+#~ msgid "Name on Card"
+#~ msgstr "カード名義"
+
+#~ msgctxt "brand"
+#~ msgid "UC"
+#~ msgstr "UCカード"
+
+#~ msgctxt "brand"
+#~ msgid "DC"
+#~ msgstr "DCカード"
+
+#~ msgctxt "brand"
+#~ msgid "Mitsui Sumitomo Credit"
+#~ msgstr "三井住友クレジット"
+
+#~ msgctxt "brand"
+#~ msgid "UFJ"
+#~ msgstr "UFJ"
+
+#~ msgctxt "brand"
+#~ msgid "Credit Saison"
+#~ msgstr "クレディセゾン"
+
+#~ msgctxt "brand"
+#~ msgid "NICOS"
+#~ msgstr "ニコス"
+
+#~ msgctxt "brand"
+#~ msgid "AEON CREDIT"
+#~ msgstr "AEONクレジット"
+
+#~ msgctxt "brand"
+#~ msgid "TOP& card"
+#~ msgstr "TOP&カード"
+
+#~ msgctxt "error"
+#~ msgid "External system"
+#~ msgstr "外部システム"
+
+#~ msgid "You can add 1 credit card."
+#~ msgstr "1枚のクレジットカードを追加できます。"
+
+#~ msgid "Register New Credit Card"
+#~ msgstr "新しいクレジットカードを登録"
+
+#~ msgid "Save"
+#~ msgstr "﻿保存"
+
+#~ msgid "Sorry, but failed to save card."
+#~ msgstr "申し訳ございません、カードを保存できませんでした。"
+
+#~ msgid "Pay with credit card via Kuroneko Pay."
+#~ msgstr "Kuroneko Payを利用してクレジットカード支払いをします。"
