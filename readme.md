@@ -5,7 +5,7 @@ Tags: woocommerce, payment, japan, yamato
 Requires at least: 4.7  
 Requires PHP: 5.4  
 Tested up to: 4.9.4  
-Stable tag: 1.2.1  
+Stable tag: 1.2.2  
 License: GPL v3 or later  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -18,7 +18,7 @@ This plugin adds [Kuroneko Web Collect](https://www.yamatofinancial.jp/wc/)'s pa
 Available payment methods are below:
 
 - Credit Card
-- Convenience Store（Japanese Drug Store）
+- Convenience Store Online
 
 ### Requirements
 
@@ -28,21 +28,20 @@ Available payment methods are below:
 - [Subscription Extension](http://www.woothemes.com/products/woocommerce-subscriptions/) for recurring payment.
 - Having or belonging to a legal organization in Japan.
 
-### About Kuroneko Pay
+### About Kuroneko Web Collect
 
-Kuroneko Pay is official plugin by [YAMATO FINANCIAL Co.,Ltd.](https://www.yamatofinancial.jp/) of
-a traditional logistic group [YAMATO HOLDINGS CO., LTD.](http://www.yamato-hd.co.jp/).
+Kuroneko Web Collect is an online payment gateway service by [YAMATO FINANCIAL Co.,Ltd.](https://www.yamatofinancial.jp/), which enables credit card payment and payment at convenience store.
 
-Kuroneko Pay can **ship internationally**.
+Please [send an account request](https://www.yamatofinancial.jp/form/order1_input.php) and getting started.
 
-You can start from free plan which charges no initial cost.
-Please [submit registration](https://www.yamatofinancial.jp/form/order1_input.php)
-or [contact us](https://www.yamatofinancial.jp/form/inquiry_input.php).
+* After submission, our account manager will contact you.
+* Kuroneko Web collect requires an inspection of your business by YAMATO FINANCIAL. As a result, you might not have an account.
+
 
 ## Installation
 
 Installation from admin screen is recommended.
-Go to "Plugins > Add New" and search with "kuroneko pay".
+Go to "Plugins > Add New" and search with "kuroneko Web Collect".
 
 For manual installation:
 
@@ -56,15 +55,13 @@ After activation, go to WooCommerce settings screen "WooCommerce > Setting".
 Click "Checkout" tab there, and you will find 3 payment methods added.
 
 - Credit card(Japan)
-- Credit card(International)
+- Credit card(International) **NOTICE:** Kuroneko Web Collect International shippping service is required.
 - Convenience Store
 
-For each of them, you have to enter `Shop Code` which you will be given from [Kuroneko Web Collect](https://www.yamatofinancial.jp/wc/).
+For each of them, you have to enter `Shop Code` and `Option Key` which you will be given from [Kuroneko Web Collect](https://www.yamatofinancial.jp/wc/).
 
-If you need optional service like recurring payment or repeater card feature,
-please enter **option key**.
-
-For convenience store gateway, you have to specify available store brands.
+* More detailed information for Option Key, refer [this page](https://na-ab24.marketo.com/rs/250-BBD-746/images/accesskey.pdf).
+* For convenience store gateway, you have to specify available store brands.
 
 After setup, customers will see the payment gateway on checkout page.
 
@@ -73,6 +70,10 @@ After setup, customers will see the payment gateway on checkout page.
 Feel free to contact us at support forum.
 
 ## Changelog
+
+### 1.2.2
+
+* Fix token service bug.
 
 ### 1.2.0
 

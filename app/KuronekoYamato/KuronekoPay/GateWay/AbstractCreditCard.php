@@ -30,8 +30,8 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 	public $id = 'kuroneko_cc';
 
 	public $access_key = '';
-	
-	protected $did_footer = false;
+
+	static private $did_footer = false;
 
 	/**
 	 * Get
@@ -532,11 +532,12 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 		if ( ! is_checkout() ) {
 			return;
 		}
-		if ( $this->did_footer ) {
+		if ( self::$did_footer ) {
 			return;
 		}
-		$this->did_footer = true;
-		$src = $this->sandbox ? 'https://ptwebcollect.jp/test_gateway/token/js/tokenlib.js' : 'https://api.kuronekoyamato.co.jp/api/token/js/tokenlib.js';
+		// Check if already rendered.
+		self::$did_footer = true;
+		$src = ( 'yes' === $this->sandbox ) ? 'https://ptwebcollect.jp/test_gateway/token/js/tokenlib.js' : 'https://api.kuronekoyamato.co.jp/api/token/js/tokenlib.js';
 		?>
 		<div style="display:none;">
 			<button type="button" id="create-token-launch">Button</button>
