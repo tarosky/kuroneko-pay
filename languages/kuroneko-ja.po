@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kuroneko Pay\n"
-"POT-Creation-Date: 2018-03-09 17:53+0900\n"
-"PO-Revision-Date: 2018-03-09 18:01+0900\n"
+"POT-Creation-Date: 2018-06-28 18:10+0900\n"
+"PO-Revision-Date: 2018-06-28 18:11+0900\n"
 "Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
 "Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -135,25 +135,25 @@ msgid "%d order"
 msgid_plural "%d orders"
 msgstr[0] "%d 件の注文"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:49
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:50
 msgid "Credit card"
 msgstr "クレジットカード"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:50
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:51
 msgid "Pay with your credit card via Kuroneko Web Collect."
 msgstr "クロネコ web コレクトを利用してクレジットカード支払いをします。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:118
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:119
 #: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:79
 #: app/KuronekoYamato/KuronekoPay/GateWay/NetBank.php:69
 msgid "Trader code is required."
 msgstr "加盟店コードが必須です。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:130
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:131
 msgid "Access Key"
 msgstr "アクセスキー"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:132
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:133
 msgid ""
 "6-7 digits on contract sheet or last numerics of access URL. To use "
 "subscription, Access key is required."
@@ -161,86 +161,98 @@ msgstr ""
 "登録完了書に記載されている数字6-7桁の「アクセスキー」もしくは、アクセスURL末"
 "尾の数字を設定してください。定期購入を利用するにはアクセスキーが必須です。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:137
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:138
+msgid "Option Service"
+msgstr "オプションサービス"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:139
+msgid "Do not use option service."
+msgstr "オプションサービスを利用しない。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:141
+msgid "If you don't want to use option service, check this on."
+msgstr "オプションサービスを利用しない場合は、チェックを入れてください。"
+
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:146
 msgid "Auth Div"
 msgstr "承認区分"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:139
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:148
 msgid "3D secure is under development."
 msgstr "3Dセキュア決済には対応しておりません。ご了承ください。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:143
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:152
 msgid "Security Code"
 msgstr "セキュリティコード"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:160
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:169
 msgid "This is sandbox environment."
 msgstr "これはサンドボックス環境です。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:174
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:183
 #: app/KuronekoYamato/KuronekoPay/GateWay/Cvs.php:135
 msgid "This payment method is only visible for site admins."
 msgstr "この支払い方法はサイト管理者にだけ見えています。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:198
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:207
 msgid "Card Brand"
 msgstr "カードブランド"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:202
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:211
 msgid "Select Card Brand"
 msgstr "カードブランドを選択……"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:216
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:225
 msgid "Enter Card Number"
 msgstr "カード番号入力"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:217
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:226
 msgid "Card O.K."
 msgstr "カードOK"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:240
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:249
 msgid "Register Card"
 msgstr "カードを登録"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:243
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:267
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:252
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:276
 msgid "* for Subscription"
 msgstr "* 定期購入では必須"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:250
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:259
 msgid "Save this card for next checkout."
 msgstr "次の支払いのためにカードを保存する。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:251
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:260
 msgid "NOTICE: Card number will never be saved."
 msgstr "※ カード番号は保存されません。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:264
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:273
 msgid "Or Pay With Registered Card"
 msgstr "登録されたカードで支払う"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:337
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:346
 msgid "Specified card is not available."
 msgstr "指定されたカードは利用できません。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:341
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:350
 msgid "Specified card not found."
 msgstr "指定されたカードが見つかりません。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:354
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:363
 msgid "Card token is empty. Please enter by clicking button."
 msgstr "カードトークンが無効です。ボタンをクリックして入力してください。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:358
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:367
 msgid "Card brand is not set."
 msgstr "カードブランドがセットされていません。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:369
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:378
 #, php-format
 msgid "To save credit card, you have to <a href=\"%s\">log in</a>."
 msgstr "カードを保存するには<a href=\"%s\">ログイン</a>する必要があります。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:375
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:384
 #, php-format
 msgid ""
 "You have already 1 card and no more card can be saved. To add new card, "
@@ -249,32 +261,32 @@ msgstr ""
 "すでに1つのカードを登録済みです。これ以上は登録できません。新しいカードを追加"
 "するには<a href=\"%s\">アカウントページ</a>へ行ってください。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:386
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:395
 msgid "You should register credit card for subscription."
 msgstr "定期購入ではカードを保存する必要があります。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:401
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:410
 msgid "Payment is authorized."
 msgstr "支払いが承認されました。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:410
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:419
 msgid "Failed to capture."
 msgstr "クレジットカードの売り上げ登録に失敗しました。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:440
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:449
 msgid "User of this subscription not found."
 msgstr "この定期購入に紐付いたユーザーが見つかりません。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:446
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:455
 msgid "Parent subscription not found."
 msgstr "定期購入が見つかりませんでした。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:450
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:459
 #, php-format
 msgid "Subscription #%d has no credit card information."
 msgstr "定期購読 #%d にはクレジットカードが紐づけられていません。"
 
-#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:508
+#: app/KuronekoYamato/KuronekoPay/GateWay/AbstractCreditCard.php:517
 msgid "This transaction has no card information."
 msgstr "この決済にはカード情報がありません。"
 
@@ -800,15 +812,15 @@ msgctxt "error"
 msgid "Undefined error occurs."
 msgstr "不明なエラーが発生しました。"
 
-#: app/KuronekoYamato/KuronekoPay/Member.php:172
+#: app/KuronekoYamato/KuronekoPay/Member.php:168
 msgid "User doesn't exist."
 msgstr "ユーザーは存在しません。"
 
-#: app/KuronekoYamato/KuronekoPay/Member.php:177
+#: app/KuronekoYamato/KuronekoPay/Member.php:173
 msgid "You have already 1 card saved."
 msgstr "すでに1枚のカードが保存されています。"
 
-#: app/KuronekoYamato/KuronekoPay/Member.php:239
+#: app/KuronekoYamato/KuronekoPay/Member.php:235
 msgid "No card found."
 msgstr "カードが見つかりません。"
 

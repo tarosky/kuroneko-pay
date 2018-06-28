@@ -18,6 +18,7 @@ use KuronekoYamato\KuronekoPay\Utility\GatewayFieldGroup;
  * @property-read Member      $member
  * @property-read OrderHelper $helper
  * @property-read bool        $has_access_key
+ * @property-read bool        $has_option_service
  * @property-read \KuronekoYamato\KuronekoPay\API\CreditCard $api
  * @property-read string      $card_key
  */
@@ -75,7 +76,7 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 			'default_credit_card_form',
 			'refunds',
 		];
-		if ( $this->access_key ) {
+		if ( $this->has_option_service ) {
 			$this->supports = array_merge( $this->supports, [
 				'subscriptions',
 				'subscription_cancellation',
@@ -98,7 +99,7 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 					'updated_failed_order',
 				] );
 				// Add hook for Recurring payment.
-				if ( $this->access_key ) {
+				if ( $this->has_option_service ) {
 					add_action( 'woocommerce_scheduled_subscription_payment_' . $this->id, [
 						$this,
 						'process_recurring_payment',
@@ -131,6 +132,14 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 			'type'        => 'text',
 			'description' => __( '6-7 digits on contract sheet or last numerics of access URL. To use subscription, Access key is required.', 'kuroneko' ),
 			'default'     => '',
+			'desc_tip'    => true,
+		];
+		$form_fields['hide_option_service'] = [
+			'title'       => __( 'Option Service', 'kuroneko' ),
+			'label'       => __( 'Do not use option service.', 'kuroneko' ),
+			'type'        => 'checkbox',
+			'description' => __( 'If you don\'t want to use option service, check this on.', 'kuroneko' ),
+			'default'     => 'no',
 			'desc_tip'    => true,
 		];
 		$form_fields['auth_div'] = [
@@ -227,7 +236,7 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 		];
 
 		// If user can register card, show checkbox.
-		if ( is_user_logged_in() && $this->has_access_key ) {
+		if ( is_user_logged_in() && $this->has_option_service ) {
 
 			$cards = $this->member->get_cards( get_current_user_id(), $this->id );
 			if ( ! $cards ) {
@@ -625,6 +634,9 @@ abstract class AbstractCreditCard extends \WC_Payment_Gateway {
 				break;
 			case 'has_access_key':
 				return '' !== $this->access_key;
+				break;
+			case 'has_option_service':
+				return 'yes' !== $this->get_option( 'hide_option_service', 'no' );
 				break;
 			case 'card_key':
 				return '_' . $this->id . '_card_key';

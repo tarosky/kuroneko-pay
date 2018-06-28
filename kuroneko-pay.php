@@ -3,11 +3,11 @@
  * Plugin Name: Kuroneko Web Collect
  * Plugin URI: https://wordpress.org/kuroneko-pay/
  * Description: Add Kuroneko Web Collect's Payment Gateway to WooCommerce.
- * Version: 1.2.2
+ * Version: 1.2.3
  * Author: YAMATO FINANCIAL Co.,Ltd.
  * Author URI: https://www.yamatofinancial.jp
  * PHP Version: 5.4.0
- * Tested up to: 4.9.4
+ * Tested up to: 4.9.6
  * Requires at least: 4.7
  * License: GPL3 or later
  * Text Domain: kuroneko

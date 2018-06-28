@@ -76,7 +76,19 @@ class BootStrap extends Singleton {
 			} );
 			// Add admin.
 			Admin::get_instance();
-			if ( Option::get_instance()->access_key ) {
+			// Check option service.
+			$has_option_service = false;
+			foreach ( [ 'kuroneco_cc', 'kuroneko_cc_intl' ] as $key ) {
+				$option = get_option( "woocommerce_{$key}_settings", [
+					'enabled'             => 'no',
+					'hide_option_service' => 'no',
+				] );
+				if ( 'yes' === $option['enabled'] && 'yes' !== $option['hide_option_service'] ) {
+					$has_option_service = true;
+					break;
+				}
+			}
+			if ( $has_option_service ) {
 				// Add Credit Card Manager.
 				CardManager::get_instance();
 				// Add Tab content.

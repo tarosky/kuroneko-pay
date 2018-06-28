@@ -24,10 +24,6 @@ class Member extends Singleton {
 	 * @return array
 	 */
 	public function get_cards( $user_id, $method = '' ) {
-		if ( ! $this->option->access_key ) {
-			// No access key.
-			return [];
-		}
 		$results = [];
 		switch ( $method ) {
 			case 'kuroneko_cc':

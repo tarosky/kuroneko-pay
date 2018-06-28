@@ -70,7 +70,7 @@
       }
     }
     // Fires click event.
-    $currentButton = $button;
+    $currentButton = $butt
     $('#create-token-launch').trigger('click');
   });
 
