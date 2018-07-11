@@ -70,7 +70,7 @@
       }
     }
     // Fires click event.
-    $currentButton = $butt
+    $currentButton = $button;
     $('#create-token-launch').trigger('click');
   });
 
@@ -88,6 +88,6 @@
   window.KuronekoCallback = function(){
     $currentButton.next('input').val( $('#webcollect-token').val() );
     $currentButton.addClass('active');
-  }
+  };
 
 })(jQuery);

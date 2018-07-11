@@ -75,7 +75,9 @@ gulp.task('jsconcat', function () {
 gulp.task('jshint', function () {
   return gulp.src(srcDir.jsHint)
     .pipe($.plumber())
-    .pipe($.jshint(srcDir.jshintrc))
+    .pipe($.jshint({
+      lookup: true
+    }))
     .pipe($.jshint.reporter('jshint-stylish'));
 });
 

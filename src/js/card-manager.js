@@ -58,7 +58,7 @@
   function appendMessage(msg, error) {
     var $div = $('<div class="kuroneko-msg"><p></p><a href="#">&times;</a></div>');
     if (error) {
-      $div.addClass('kuroneko-msg--error')
+      $div.addClass('kuroneko-msg--error');
     }
     $div.find('p').text(msg);
     $div.on('click', 'a', function (e) {

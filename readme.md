@@ -5,7 +5,7 @@ Tags: woocommerce, payment, japan, yamato
 Requires at least: 4.7  
 Requires PHP: 5.4  
 Tested up to: 4.9.6  
-Stable tag: 1.2.3  
+Stable tag: 1.2.4  
 License: GPL v3 or later  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,6 +70,11 @@ After setup, customers will see the payment gateway on checkout page.
 Feel free to contact us at support forum.
 
 ## Changelog
+
+### 1.2.4
+
+* Fix JS error on clicking checkout button.
+
 
 ### 1.2.3
 
