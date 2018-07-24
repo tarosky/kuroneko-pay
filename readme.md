@@ -63,7 +63,7 @@ For each of them, you have to enter `Shop Code` and `Option Key` which you will 
 * More detailed information for Option Key, refer [this page](https://na-ab24.marketo.com/rs/250-BBD-746/images/accesskey.pdf).
 * For convenience store gateway, you have to specify available store brands.
 
-After setup, customers will see the payment gateway on checkout page.
+After setup, customers would be able to see the payment gateway on checkout page.
 
 ## Frequently Asked Questions
 
