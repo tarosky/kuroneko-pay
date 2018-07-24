@@ -51,7 +51,7 @@ For manual installation:
 
 ### Setting
 
-After activation, go to WooCommerce settings screen "WooCommerce > Setting".
+After activation, go to WooCommerce setting screen "WooCommerce > Setting".
 Click "Checkout" tab there, and you will find 3 payment methods added.
 
 - Credit card(Japan)
