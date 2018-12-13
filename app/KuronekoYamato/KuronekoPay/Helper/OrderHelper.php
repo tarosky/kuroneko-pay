@@ -131,6 +131,11 @@ class OrderHelper extends Singleton {
 		$virtual = true;
 		foreach ( $order->get_items() as $item ) {
 			$product = wc_get_product( $item->get_product_id() );
+			// For deleted products
+			if ( empty( $product ) ) {
+				$virtual = true;
+				break;
+			}
 			if ( ! $product->is_virtual() ) {
 				$virtual = false;
 				break;
