@@ -421,18 +421,20 @@ class OrderHelper extends Singleton {
 	public function show_order_detail_instruction( $order ) {
 		$order = wc_get_order( $order );
 		$template = false;
-		switch ( $order->payment_method ) {
-			case CvsInfo::ID:
-				$template = 'order-cvs';
-				break;
-			case 'kuroneko_nb':
-				if ( is_view_order_page() ) {
-					$template = 'order-bank';
-				}
-				break;
-			default:
-				// Do nothing.
-				break;
+		if ( property_exists( $order, 'payment_method' ) ) {
+			switch ( $order->payment_method ) {
+				case CvsInfo::ID:
+					$template = 'order-cvs';
+					break;
+				case 'kuroneko_nb':
+					if ( is_view_order_page() ) {
+						$template = 'order-bank';
+					}
+					break;
+				default:
+					// Do nothing.
+					break;
+			}
 		}
 		if ( $template ) {
 			kuroneko_template( $template, [ 'order' => $order ] );
