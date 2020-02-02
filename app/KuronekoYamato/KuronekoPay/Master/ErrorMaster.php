@@ -214,7 +214,20 @@ class ErrorMaster {
 			$message = _x( 'Undefined error occurs.', 'error', 'kuroneko' );
 		}
 
-		return sprintf( '[%s] %s', $err_code, $message );
+		$message = sprintf( '[%s] %s', $err_code, $message );
+
+		/**
+		 * kuroneko_error_message
+		 *
+		 * @package KuronekoPay
+		 * @since 1.0.0
+		 * @param string $message Error message
+		 * @param string $err_code
+		 * @return string
+		 */
+		$message = apply_filters( 'kuroneko_error_message', $message, $err_code );
+
+		return $message;
 	}
 
 
