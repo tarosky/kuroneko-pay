@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kuroneko Pay\n"
-"POT-Creation-Date: 2018-06-28 18:10+0900\n"
-"PO-Revision-Date: 2018-06-28 18:11+0900\n"
+"POT-Creation-Date: 2018-11-25 16:43+0900\n"
+"PO-Revision-Date: 2018-11-25 16:47+0900\n"
 "Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
 "Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -730,32 +730,32 @@ msgid ""
 "4. If you have trouble, please ask shop assistant about your online payment."
 msgstr "4. オンライン支払いで問題が発生した場合は、店員にご相談ください。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:40
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:42
 msgctxt "error"
 msgid "Request time out."
 msgstr "リクエストが時間切れになりました。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:43
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:45
 msgctxt "error"
 msgid "Too many transaction."
 msgstr "トランザクションの回数が多すぎます。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:55
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:57
 msgctxt "error"
 msgid "Available amount exceeded."
 msgstr "利用可能が額を超えています。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:70
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:72
 msgctxt "error"
 msgid "This credit card is not available. Please try another card."
 msgstr "このクレジットカードは利用できません。別のカードをお試しください。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:73
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:75
 msgctxt "error"
 msgid "Failed to save credit card."
 msgstr "クレジットカードの登録に失敗しました。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:86
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:88
 msgctxt "error"
 msgid ""
 "Failed to cancel transaction. Order number doesn't exist or not cancelable."
@@ -763,51 +763,60 @@ msgstr ""
 "決済の取り消しに失敗しました。注文番号が存在しないか、キャンセルできない注文"
 "です。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:98
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:100
 msgctxt "error"
 msgid "Transaction not found"
 msgstr "決済が見つかりませんでした。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:111
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:113
 msgctxt "error"
 msgid "Sorry, but this transaction cannot be canceled."
 msgstr "もうわけございませんが、この決済はキャンセルできません。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:155
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:172
 msgctxt "error"
 msgid "System reject request because of duplicate process."
 msgstr ""
 "重複して処理されるのを防ぐため、システムによってリクエストが拒絶されました。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:158
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:175
 msgctxt "error"
 msgid "Something is wrong. Please check order No, tracking No and so on."
 msgstr "何かが間違っています。注文番号、追跡番号などを確認してください。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:169
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:186
 msgctxt "error"
 msgid "Specified data is wrong. Please check your name, tel and so on."
 msgstr ""
 "指定されたデータが間違っています。名前、電話番号などを確認してください。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:172
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:189
 msgctxt "error"
 msgid "Store setting error. Please try again later or contact to store owner."
 msgstr ""
 "ストアの設定が間違えています。後ほどお試しいただくか、ストアの管理者にお問い"
 "合わせください。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:175
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:192
 msgctxt "error"
 msgid "Something wrong with external gateway."
 msgstr "外部のゲートウェイでエラーが起きています。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:178
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:195
+msgctxt "error"
+msgid ""
+"Something wrong with authorization process. Please try again later or "
+"contact to card issuer."
+msgstr ""
+"与信処理が行えませんでした。後ほどお試しいただくか、カード発行会社にお問い合"
+"わせください。"
+
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:198
 msgctxt "error"
 msgid "Something is wrong. Please try again later."
 msgstr "不具合が起きました。のちほどお試しください。"
 
-#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:196
+#: app/KuronekoYamato/KuronekoPay/Master/ErrorMaster.php:216
 msgctxt "error"
 msgid "Undefined error occurs."
 msgstr "不明なエラーが発生しました。"

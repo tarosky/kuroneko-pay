@@ -128,6 +128,21 @@ class ErrorMaster {
 				case 'A05':
 					throw new \Exception( 'setting_error' );
 					break;
+				case 'A08':
+					switch ( $genre ) {
+						case '200':
+							switch ( $code ) {
+								case '0010':
+									throw new \Exception( 'authorization_error' );
+									break;
+								default:
+									break;
+							}
+							break;
+						default:
+							break;
+					}
+					break;
 				case 'B01':
 				case 'B02':
 				case 'B03':
@@ -173,6 +188,9 @@ class ErrorMaster {
 					break;
 				case 'external_error':
 					return _x( 'Something wrong with external gateway.', 'error', 'kuroneko' );
+					break;
+				case 'authorization_error':
+					return _x( 'Something wrong with authorization process. Please try again later or contact to card issuer.', 'error', 'kuroneko' );
 					break;
 				default:
 					return _x( 'Something is wrong. Please try again later.', 'error', 'kuroneko' );
