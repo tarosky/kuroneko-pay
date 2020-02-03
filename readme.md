@@ -4,8 +4,8 @@ Contributors: yamatofinancial
 Tags: woocommerce, payment, japan, yamato  
 Requires at least: 4.7  
 Requires PHP: 5.4  
-Tested up to: 4.9.8  
-Stable tag: 1.2.9  
+Tested up to: 5.3  
+Stable tag: 1.2.10  
 License: GPL v3 or later  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
