@@ -41,6 +41,23 @@ class Brands {
 	}
 
 	/**
+	 * All brand codes
+	 *
+	 * @return array
+	 */
+	public static function get_brand_codes() {
+		$codes = [
+			'diners' => 2,
+			'jcb' => 3,
+			'visa' => 9,
+			'master' => 10,
+			'amex' => 12,
+		];
+
+		return $codes;
+	}
+
+	/**
 	 * Detect if brand exists.
 	 *
 	 * @param string $code
@@ -60,14 +77,12 @@ class Brands {
 	 * @return int
 	 */
 	public static function brand_code( $brand ) {
-		$i = 1;
-		foreach ( self::get_brand() as $code => $label ) {
-			if ( $brand == $code ) {
-				return $i;
-			}
-			$i++;
+		$codes = self::get_brand_codes();
+		if ( ! isset( $codes[ $brand ] ) ) {
+			return 0;
 		}
-		return 0;
+
+		return $codes[ $brand ];
 	}
 
 	/**
