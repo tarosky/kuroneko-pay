@@ -1,3 +1,7 @@
+# WARNING: This repository is no longer maintained.
+
+This project is no longer in development and the repository will not be updated.
+
 # Kuroneko Web Collect
 
 Contributors: yamatofinancial  
